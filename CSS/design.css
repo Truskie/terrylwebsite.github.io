@@ -1,0 +1,286 @@
+body{background-color: #526b90;
+}
+.mainBody{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{ 
+	padding-top:30px;  
+	font-style: italic; 
+	font-style: bold; 
+	font-family: Trebuchet MS;
+	color: #FFC300 ;
+}
+.gh{
+	margin-left:40px;
+}
+.nlh{
+	margin-left:40px;
+}
+.header1{
+	margin-left: 40px;
+}
+.overview{
+	font-style: bold;
+	font-family: Trebuchet MS;
+	font-size: 19px;
+	margin-left: 40px;
+	color: White;
+	background: rgb(80, 150, 200, 0.2);
+	width: 450px;
+	border-radius: 10px;
+}
+nav{
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.button{
+	background-color: #0bc3f8;
+	color: black; 
+	padding: 13px 30px;
+	display: inline-block; 
+	font-size: 16px; 
+	margin: 4px 2px; 
+	cursor: pointer; 
+	border-radius:12px;
+	border-color: white;
+	font-style: Italic;
+	font-family: sans-serif; 
+	transition: all 0.5s;  
+	text-align: center;
+}
+.button span{
+	cursor: pointer; 
+	display: inline-block; 
+	position: relative; 
+	transition: 0.5s
+}
+.button span: after{ 
+	content: '\00bb'; 
+	position: absolute; 
+	opacity:0; 
+	top: 0; 
+	right: -20px; 
+	transition:0.5s;
+}
+.button:hover span{ 
+	padding-right: 25px;
+}
+.button:hover span: after{
+	opacity:1; right:0;
+}
+img{
+	width:200px;
+	height:200px;
+}
+.banner{
+	width: 650px;
+	height: 150px;
+	padding-top: 10px;
+	align-items: center;
+	padding-bottom: 25px;
+	border-radius: 60px;
+	border-color: white;
+}
+.logo{
+	width:140px;
+	height:140px;
+	margin: auto;
+	padding-left: 350px;
+	position: absolute;
+}
+.img2{ 
+	float: left; 
+	position: absolute; 
+	width: 250px; 
+	height: 250px; 
+	padding-top: 80px; 
+	padding-left: 100px;
+}
+.video1{ 
+	float: left; 
+	position: absolute;
+	width: 250px; 
+	height: 250px; 
+	padding-top: 310px; 
+	padding-left:100px;
+}
+
+table{
+	 font-family: Trebuchet MS;  
+	 font-size:20; 
+	 color: white;
+	 text-align: center; 
+	 margin-top: 80px;
+	 margin-left: 120px;
+	 margin-right: 400px;
+	 border-style: solid;
+	 border-color:white;
+	 background: rgb(50, 50, 50, 0.5);
+	 border-radius: 20px;
+	 float: right;
+}
+.newsletter{
+	text-align: justifty;
+	float: right;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 120px;
+	margin-right: 90px;
+	border-style: solid;
+	border-color: white;
+	background: rgb(50, 50, 50, 0.5);
+	display: inline-block;
+}
+.tablebottom{
+	padding-bottom:20px;
+}
+th, td{ 
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color:black;
+	padding-right: 30px;
+}
+th{
+	padding-top: 40px;
+	font-size: 23px;
+	border-bottom: 2px dashed black;
+}
+.th2{
+	border-bottom: none;
+	padding-top: 10px;
+}
+td{
+	padding-top: 10px;
+	border-collapse: collapse;
+}
+label, input{
+	left:200px;
+	right:200px;
+	font-family:Helvetica;
+	font-size: 20px;
+	margin-left: 40px;
+}
+select{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+label{
+	top:200px;
+}
+input{
+	width: 200px;
+	border-radius: 5px;
+	border-color: white;
+	font-size: 15px;
+}
+.gender{
+	position: relative;
+}
+.submit{
+	width: 70px;
+}
+.column{
+  float: left;
+  width: 23%;
+  top:325px;
+  position: absolute;
+}
+.column2{
+	float: left;
+	width: 23%;
+	top:530px;
+	position: absolute;
+}
+.column3{
+	float: left;
+	width: 23%;
+	top:730px;
+	position: absolute;
+}
+.column4{
+	float: left;
+	width: 23%;
+	top:935px;
+	position: absolute;
+}
+
+.column img{
+  opacity: 0.8;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column img:hover{
+  opacity: 1;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column2 img{
+  opacity: 0.8;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column2 img:hover{
+  opacity: 1;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column3 img{
+  opacity: 0.8;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column3 img:hover{
+  opacity: 1;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column4 img{
+  opacity: 0.8;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.column4 img:hover{
+  opacity: 1;
+  border-style: solid;
+  border-color: #0bc3f8;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  position: relative;
+  display: none;
+  width: 50%;
+  height: 50%;
+  float: right;
+  right: 400px;
+}
+.closebtn {
+  left: 940px;
+  position: absolute;
+  bottom: 340px;
+  color: white;
+  font-size: 60px;
+  cursor: pointer;
+}
+#imgtext {
+  position: absolute;
+  top:12px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+  background: rgb(50, 50, 50, 0.5);
+  font-family: Trebuchet MS;
+  font-style: italic;
+}
+

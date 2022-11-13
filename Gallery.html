@@ -1,0 +1,106 @@
+<html>
+
+	<head>
+		<title>
+			Gallery
+		</title>
+		<link rel = "icon" href="Images/logo.jpg" type = "image/x=icon">
+		<link rel="stylesheet" href="CSS/design.css">
+	</head>
+
+	<body>
+		<header>
+	
+			<center>	
+			
+				<h1>
+					Welcome!
+				</h1>
+			</center>
+			
+		<img class="logo" src="Images/logo.jpg">
+		
+			<nav>
+				<center>
+				<a href="Main.html">
+					<button class="button" style="vertical-align:middle">
+						<span>
+							Home
+						</span>
+					</button>
+				</a>
+				<a href="Gallery.html">
+					<button class="button" style="vertical-align:middle">
+						<span>
+							Gallery
+						</span>
+					</button>
+				</a>
+				<a href="Newsletter.html">
+					<button class="button" style="vertical-align:middle">
+						<span>
+							Newsletter
+						</span>
+					</button>
+				</a>
+				<a href="Employees.html">
+					<button class="button" style="vertical-align:middle">
+						<span>
+							Meet the Team
+						</span>
+					</button>
+				</center>
+				</a>
+			</nav>	
+
+	<h1 class="gh">
+		Our specialty includes vector art and brand mascot creation
+	</h1>
+	<div class="row">
+	  <div class="column">
+		<img src="Images/logo.jpg" alt="Mascots" onclick="myFunction(this);">
+	  </div>
+	  <div class="column2">
+		<img src="Images/gallery3.jpg" alt="Vector Art" onclick="myFunction(this);">
+	  </div>
+	  <div class="column3">
+		<img src="Images/gallery2.jpg" alt="Vector Art" onclick="myFunction(this);">
+	  </div>
+	  <div class="column4">
+		<img src="Images/gallery4.jpg" alt="Logos" onclick="myFunction(this);">
+	  </div>
+	</div>
+
+
+	<div class="container">
+
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+
+	  <img id="expandedImg" style="width:120%; height:220%">
+
+
+	  <div id="imgtext"></div>
+	</div>	
+	
+
+	
+	<script>
+	  function myFunction(imgs) {
+	  // Get the expanded image
+	  var expandImg = document.getElementById("expandedImg");
+	  // Get the image text
+	  var imgText = document.getElementById("imgtext");
+	  // Use the same src in the expanded image as the image being clicked on from the grid
+	  expandImg.src = imgs.src;
+	  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+	  imgText.innerHTML = imgs.alt;
+	  // Show the container element (hidden with CSS)
+	  expandImg.parentElement.style.display = "block";
+	}
+	</script>
+	
+</body>
+	
+	
+</html>
